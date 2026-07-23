@@ -1,0 +1,22 @@
+## Requirements
+
+Before running the project, make sure you have:
+
+- Python 3.10 or above
+- A Google Gemini API Key
+- Internet connection
+- Required Python libraries installed
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Generate your Gemini API key from Google AI Studio and replace:
+
+```python
+genai.configure(api_key="YOUR_GEMINI_API_KEY")
+```
+
+with your own API key before running the project.
